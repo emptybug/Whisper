@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:context="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    android:background="@android:color/transparent"
+    >
+    <LinearLayout
+        android:id="@+id/left_layout_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:orientation="vertical"
+        android:background="@android:color/transparent"
+        >
+        <TextView
+            android:id="@+id/left_time_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="2016/7/12 21:09:31"
+            android:textColor="@color/chatTimeColor"
+            android:layout_gravity="center"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/night_bubble"
+            android:layout_gravity="start"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="20dp"
+            >
+            <TextView
+                android:id="@+id/left_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:textColor="@color/chatTextColor"
+                android:textSize="@dimen/text_chat"
+                android:text="Hello!qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/right_layout_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/right_time_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="2016/7/12 21:09:31"
+            android:textColor="@color/chatTimeColor"
+            android:layout_gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@drawable/rose_bubble"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="40dp"
+            >
+            <TextView
+                android:id="@+id/right_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:textSize="@dimen/text_chat"
+                android:textColor="@color/chatTextColor"
+                android:text="Hello!qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+                />
+            </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

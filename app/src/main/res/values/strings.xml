@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">Whisper</string>
+    <string name="action_settings">设置</string>
+
+    <!--左边提示-->
+    <string name="user_name_left">昵称"："</string>
+    <string name="submit_btn">登 陆</string>
+    <!---->
+    <!--Hint-->
+    <string name="user_name_hint">请输入您的昵称</string>
+    <string name="edit_chat_hint">这里输入您的消息</string>
+    <!---->
+    <!--按钮-->
+    <string name="send_btn">发送</string>
+    <string name="file_btn">文件</string>
+    <!---->
+
+    <string name="ip_address">IP地址</string>
+    <string name="server_port">接收端口</string>
+</resources>
